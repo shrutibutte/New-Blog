@@ -1,0 +1,23 @@
+.new-footer {
+  background-color: #efefef;
+}
+.cp {
+  background-color: #d8d8d8;
+}
+.toggler-icon {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .collapse-container {
+    display: none;
+  }
+  .toggler-icon {
+    display: block;
+    margin: auto;
+    width: 50%;
+    background-color: rgba(236, 236, 236, 0.4);
+  }
+  .navbar-toggler-icon {
+  }
+}
